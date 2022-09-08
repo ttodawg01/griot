@@ -1,0 +1,22 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: 200px 250px;
+    grid-auto-rows: minmax(50px, 200px);
+    /* grid-gap: 20px; */
+    /* grid-template-areas: 
+    "header header"
+    "sidebar content"
+    "sidebar content"; */
+    justify-content: center;
+}
+.grid-item1{
+    grid-area: header;
+    height: auto;
+}
+.grid-item2{
+    grid-area: sidebar;
+}
+img {
+    height: 100%;
+    width: 100%;
+}
